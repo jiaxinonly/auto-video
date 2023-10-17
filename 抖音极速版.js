@@ -57,6 +57,7 @@ function launchApp() {
         log("尝试启动")
         launchPackage("com.ss.android.ugc.aweme.lite")
         sleep(3000)
+        isLauchApp = true
         // isLauchApp=packageName("com.ss.android.ugc.aweme").text("推荐").exists()
     }
     let mesbox = id("com.ss.android.ugc.aweme.lite:id/al3").findOnce()
